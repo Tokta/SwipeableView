@@ -9,39 +9,19 @@
 /* Begin PBXBuildFile section */
 		CA510788215A7939006FBE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA510787215A7939006FBE2A /* AppDelegate.swift */; };
 		CA51078A215A7939006FBE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA510789215A7939006FBE2A /* ViewController.swift */; };
-		CA51078D215A7939006FBE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA51078B215A7939006FBE2A /* Main.storyboard */; };
 		CA51078F215A793A006FBE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA51078E215A793A006FBE2A /* Assets.xcassets */; };
 		CA510792215A793A006FBE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA510790215A793A006FBE2A /* LaunchScreen.storyboard */; };
 		CA51079A215A7952006FBE2A /* SwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA510799215A7952006FBE2A /* SwipeableView.swift */; };
-		CA5ABE322167998E00CF8A9D /* UIColor+AppColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5ABE282167998D00CF8A9D /* UIColor+AppColors.m */; };
-		CA5ABE332167998E00CF8A9D /* NSMutableDictionary+validateParameterforDB.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5ABE2B2167998D00CF8A9D /* NSMutableDictionary+validateParameterforDB.m */; };
-		CA5ABE342167998E00CF8A9D /* MUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5ABE2D2167998D00CF8A9D /* MUtilities.m */; };
-		CA5ABE352167998E00CF8A9D /* CustomBackboneInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5ABE2F2167998E00CF8A9D /* CustomBackboneInterface.m */; };
-		CA5ABE362167998E00CF8A9D /* NSDate+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5ABE302167998E00CF8A9D /* NSDate+Random.m */; };
-		CA5ABE3821679DA400CF8A9D /* CustomObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5ABE3721679DA400CF8A9D /* CustomObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA510784215A7939006FBE2A /* SwipeableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA510787215A7939006FBE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA510789215A7939006FBE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA51078C215A7939006FBE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA51078E215A793A006FBE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA510791215A793A006FBE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA510793215A793A006FBE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA510799215A7952006FBE2A /* SwipeableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableView.swift; sourceTree = "<group>"; };
-		CA5ABE172167990100CF8A9D /* SwipeableView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwipeableView-Bridging-Header.h"; sourceTree = "<group>"; };
-		CA5ABE282167998D00CF8A9D /* UIColor+AppColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+AppColors.m"; path = "SwipeableView/Helpers/UIColor+AppColors.m"; sourceTree = SOURCE_ROOT; };
-		CA5ABE292167998D00CF8A9D /* MUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MUtilities.h; path = SwipeableView/Helpers/MUtilities.h; sourceTree = SOURCE_ROOT; };
-		CA5ABE2A2167998D00CF8A9D /* CustomBackboneInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomBackboneInterface.h; path = SwipeableView/Helpers/CustomBackboneInterface.h; sourceTree = SOURCE_ROOT; };
-		CA5ABE2B2167998D00CF8A9D /* NSMutableDictionary+validateParameterforDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+validateParameterforDB.m"; path = "SwipeableView/Helpers/NSMutableDictionary+validateParameterforDB.m"; sourceTree = SOURCE_ROOT; };
-		CA5ABE2C2167998D00CF8A9D /* UIColor+AppColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+AppColors.h"; path = "SwipeableView/Helpers/UIColor+AppColors.h"; sourceTree = SOURCE_ROOT; };
-		CA5ABE2D2167998D00CF8A9D /* MUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MUtilities.m; path = SwipeableView/Helpers/MUtilities.m; sourceTree = SOURCE_ROOT; };
-		CA5ABE2E2167998D00CF8A9D /* NSDate+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Random.h"; path = "SwipeableView/Helpers/NSDate+Random.h"; sourceTree = SOURCE_ROOT; };
-		CA5ABE2F2167998E00CF8A9D /* CustomBackboneInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomBackboneInterface.m; path = SwipeableView/Helpers/CustomBackboneInterface.m; sourceTree = SOURCE_ROOT; };
-		CA5ABE302167998E00CF8A9D /* NSDate+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Random.m"; path = "SwipeableView/Helpers/NSDate+Random.m"; sourceTree = SOURCE_ROOT; };
-		CA5ABE312167998E00CF8A9D /* NSMutableDictionary+validateParameterforDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+validateParameterforDB.h"; path = "SwipeableView/Helpers/NSMutableDictionary+validateParameterforDB.h"; sourceTree = SOURCE_ROOT; };
-		CA5ABE3721679DA400CF8A9D /* CustomObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,33 +57,11 @@
 				CA510787215A7939006FBE2A /* AppDelegate.swift */,
 				CA510789215A7939006FBE2A /* ViewController.swift */,
 				CA510799215A7952006FBE2A /* SwipeableView.swift */,
-				CA5ABE3721679DA400CF8A9D /* CustomObject.swift */,
-				CA5ABE272167990C00CF8A9D /* Helpers */,
-				CA51078B215A7939006FBE2A /* Main.storyboard */,
 				CA51078E215A793A006FBE2A /* Assets.xcassets */,
 				CA510790215A793A006FBE2A /* LaunchScreen.storyboard */,
 				CA510793215A793A006FBE2A /* Info.plist */,
-				CA5ABE172167990100CF8A9D /* SwipeableView-Bridging-Header.h */,
 			);
 			path = SwipeableView;
-			sourceTree = "<group>";
-		};
-		CA5ABE272167990C00CF8A9D /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				CA5ABE2A2167998D00CF8A9D /* CustomBackboneInterface.h */,
-				CA5ABE2F2167998E00CF8A9D /* CustomBackboneInterface.m */,
-				CA5ABE292167998D00CF8A9D /* MUtilities.h */,
-				CA5ABE2D2167998D00CF8A9D /* MUtilities.m */,
-				CA5ABE2E2167998D00CF8A9D /* NSDate+Random.h */,
-				CA5ABE302167998E00CF8A9D /* NSDate+Random.m */,
-				CA5ABE312167998E00CF8A9D /* NSMutableDictionary+validateParameterforDB.h */,
-				CA5ABE2B2167998D00CF8A9D /* NSMutableDictionary+validateParameterforDB.m */,
-				CA5ABE2C2167998D00CF8A9D /* UIColor+AppColors.h */,
-				CA5ABE282167998D00CF8A9D /* UIColor+AppColors.m */,
-			);
-			name = Helpers;
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +125,6 @@
 			files = (
 				CA510792215A793A006FBE2A /* LaunchScreen.storyboard in Resources */,
 				CA51078F215A793A006FBE2A /* Assets.xcassets in Resources */,
-				CA51078D215A7939006FBE2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,28 +136,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA51078A215A7939006FBE2A /* ViewController.swift in Sources */,
-				CA5ABE3821679DA400CF8A9D /* CustomObject.swift in Sources */,
-				CA5ABE322167998E00CF8A9D /* UIColor+AppColors.m in Sources */,
 				CA51079A215A7952006FBE2A /* SwipeableView.swift in Sources */,
-				CA5ABE352167998E00CF8A9D /* CustomBackboneInterface.m in Sources */,
 				CA510788215A7939006FBE2A /* AppDelegate.swift in Sources */,
-				CA5ABE362167998E00CF8A9D /* NSDate+Random.m in Sources */,
-				CA5ABE342167998E00CF8A9D /* MUtilities.m in Sources */,
-				CA5ABE332167998E00CF8A9D /* NSMutableDictionary+validateParameterforDB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CA51078B215A7939006FBE2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA51078C215A7939006FBE2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA510790215A793A006FBE2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -332,7 +275,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AMVWHYNVM8;
+				DEVELOPMENT_TEAM = 3A77F3Y2WP;
 				INFOPLIST_FILE = SwipeableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -340,8 +283,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitric.csveditor.SwipeableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwipeableView/SwipeableView-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -353,7 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AMVWHYNVM8;
+				DEVELOPMENT_TEAM = 3A77F3Y2WP;
 				INFOPLIST_FILE = SwipeableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -361,7 +305,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mitric.csveditor.SwipeableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwipeableView/SwipeableView-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
