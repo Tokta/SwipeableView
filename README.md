@@ -1,6 +1,6 @@
 # SwipeableView
 
-SwipeView to recreate the UITableViewRowAction. You can customize every action with backgroundColor and UIImage easily. 
+SwipeableView to recreate the UITableViewRowAction. You can customize every action with backgroundColor and UIImage easily. 
 
 ![](SwipeDemo.gif)
 
@@ -20,4 +20,4 @@ self.showAlert("Dog \(num)")
 
 For futher instructions see the project demo.
 
-NOTE: SwipeView works on UITableViewCell as subview and also on UIScrollView. To use it on UITableView Header and Footer use it as subview of Header or Footer, do not pass it directly because it will be resized automatically and the swipe will broke. 
+NOTE: SwipeableView works on UITableViewCell as subview and also on UIScrollView. To use it on UITableView Header and Footer use it as subview of Header or Footer, do not pass it directly because it will be resized automatically and the swipe will broke. 
