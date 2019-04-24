@@ -17,8 +17,15 @@ class SwipeableView: UIView {
     private var actionWidth:CGFloat!
     
     public var actions = [ActionView]()
-    
-    @objc public init(frame: CGRect,backgroundColor: UIColor) {
+    /**
+     Init SwipeableView with frame and backgroundColor
+     
+     - Parameters:
+        - frame: SwipeableView frame
+        - backgroundColor: SwipeableView background color
+     
+     */
+    @objc public init(frame: CGRect, backgroundColor: UIColor) {
         
         super.init(frame: frame)
         self.backgroundColor = UIColor.clear
@@ -39,7 +46,16 @@ class SwipeableView: UIView {
         self.actionWidth = frame.size.height
     }
     
-    @objc func addAction(title:String, image:UIImage?, backgroundcolor:UIColor, action:@escaping ()->()){
+    /**
+     Add action to SwipeableView. This method add an ActionView that is visible after a left swipe on the SwipeableView. Title will be in the center without an image, if an image is provided it will be at its bottom.
+     
+     - Parameters:
+        - title:  action button title
+        - image: action button image
+        - backgroundcolor: action button background color
+     
+     */
+    @objc final func addAction(title:String, image:UIImage?, backgroundcolor:UIColor, action:@escaping ()->()){
         
         let xPosition: CGFloat = self.container.frame.size.width + CGFloat(actions.count)*actionWidth + 1
         let actionView =  ActionView(frame: CGRect(x: xPosition,
@@ -67,7 +83,7 @@ class SwipeableView: UIView {
         print("2 - \(self.frame) - \(self.center.x)")
     }
     
-    @objc func handlePan(pan:UIPanGestureRecognizer){
+    @objc private final func handlePan(pan:UIPanGestureRecognizer){
         
         print("COMPARE: - \(self.frame) - \(pan.view?.frame ?? CGRect.zero)")
         
@@ -132,7 +148,8 @@ class SwipeableView: UIView {
 
 extension SwipeableView: UIGestureRecognizerDelegate{
 
-    override func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+    ///Allows the SwipeableView to be swipable also on UIScrollViews.
+    override final func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
         
         if let panGesture = gestureRecognizer as? UIPanGestureRecognizer {
             
